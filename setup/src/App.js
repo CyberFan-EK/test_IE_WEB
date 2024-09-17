@@ -5,6 +5,7 @@ import List from "./List";
 function App() {
   const [count, setCount] = useState(0);
   const str1 = "Hello";
+  const exp = 123;
   return (
     <>
       <h1>Я натиснув {count} разів на кнопку</h1>
